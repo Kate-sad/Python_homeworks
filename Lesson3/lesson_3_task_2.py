@@ -1,4 +1,3 @@
-from Lesson3.lesson_3_task_3 import my_mailing
 from smartphone import Smartphone
 
 catalog = [
