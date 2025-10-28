@@ -11,6 +11,6 @@ browser = webdriver.Chrome(
 browser.get(
     "https://bonigarcia.dev/selenium-webdriver-java/loading-images.html")
 element = WebDriverWait(browser, 10).until(
-    EC.visibility_of_element_located((By.ID, "landscape")))
+    EC.visibility_of_element_located((By.ID, "award")))
 print(browser.find_element(By.ID, "award").get_attribute("src"))
 browser.quit()
